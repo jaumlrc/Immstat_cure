@@ -18,12 +18,6 @@ The script depends on the following R packages:
 
 
 ---
-## The script *Legendplex_clinical_data_analysis.v5.R* receives 3 file tipes, one for each country:
-1-Patient clinical metadata                                            
-2-patient Legendplex results  
-3-Legendplex Limit of Quantification     
-
----
 
 ## Script Functions
 
@@ -34,6 +28,15 @@ The script depends on the following R packages:
 - Identifies potential markers linked to clinical states   
 
 ---
+## Input Files
+
+The script **`Legendplex_clinical_data_analysis.v5.R`** expects **three input files** (one set per country):
+
+1. **Patient clinical metadata**  
+2. **Patient Legendplex results**  
+3. **Legendplex Limits of Quantification (LOQ)**  
+---
+
 ## Example Input Data
 *(Note: These examples do not represent real data)*
 
