@@ -1,44 +1,21 @@
 # Immstat_cure
 
-## Contains the R script for data analysis from the manuscript "Systemic inflammatory markers of VL treatment response in East Africa"
+## Overview
 
+This repository contains the R script used for data analysis in the manuscript  
+**“Systemic inflammatory markers of VL treatment response in East Africa.”**
 ---
 
 ## Required Libraries
 
-* ggplot2
-* reshape2
-* viridis
-* dplyr
-* tidyr
-* ggpubr
-* rstatix
-* factoextra
-* ggrepel
-* plotly
-* umap
-* pheatmap
-* Hmisc
-* corrplot
-* ggradar
-* fmsb
-* scales
-* cowplot
-* ggiraphExtra
-* grid
-* gridExtra
-* ggprism
-* ggfortify
-* cluster
-* caret
-* mixOmics
-* sva
-* logistf
-* ggpointdensity
-* MASS
-* ggVennDiagram
-* tibble
-* ggtext
+The script depends on the following R packages:
+
+`ggplot2`, `reshape2`, `viridis`, `dplyr`, `tidyr`, `ggpubr`, `rstatix`,  
+`factoextra`, `ggrepel`, `plotly`, `umap`, `pheatmap`, `Hmisc`, `corrplot`,  
+`ggradar`, `fmsb`, `scales`, `cowplot`, `ggiraphExtra`, `grid`, `gridExtra`,  
+`ggprism`, `ggfortify`, `cluster`, `caret`, `mixOmics`, `sva`, `logistf`,  
+`ggpointdensity`, `MASS`, `ggVennDiagram`, `tibble`, `ggtext`.
+
 
 ---
 ## The script *Legendplex_clinical_data_analysis.v5.R* receives 3 file tipes, one for each country:
@@ -48,18 +25,19 @@
 
 ---
 
-## The Script
+## Script Functions
 
 - Polishes the data and generates quality control plots  
 - Separates the data by male and female patients  
 - Generates and plots PCA and UMAP visualizations  
 - Compares pre- and post-treatment data  
-- Identifies potential markers linked to clinical states  
+- Identifies potential markers linked to clinical states   
 
 ---
+## Example Input Data
+*(Note: These examples do not represent real data)*
 
-## Expected input data 
-(note: This example does not represetn real data):
+### 1. Legendplex Results
 ```
 $ well	experiment	sample	dilution	replicate	sample_type	TGF.β1..Free.Active...A4.	PAI.1..A5.	sTREM.1..A6.	PTX3..A7.	sCD40L..A8.	sCD25..IL.2Ra...A10.	CXCL12..B2.	sST2..B3.	sTNF.RI..B4.	sTNF.RII..B5.	sRAGE..B6.	CX3CL1..B7.	sCD130..gp130...B9.	Sample_name	group
 $ 02-Well-A9.fcs	In_K_plate 3	02-Well-A9	1	1	Sample	12.23	18516.17	36.7	2129.05	18726.26	2569.37	819.34	1661	1083.25	438.21	298.15	9826.67	46440.25	VL099	V2
@@ -68,8 +46,7 @@ $ 02-Well-B11.fcs	In_K_plate 3	02-Well-B11	1	1	Sample	1	8797.49	30.73	1751.99	32
 $ 02-Well-B3.fcs	In_K_plate 3	02-Well-B3	1	1	Sample	0	8135.93	139.84	2489.91	11098.11	5300.83	659.34	2067.51	1459.5	599.79	401.21	23816.19	69932.39	VL077	V1
 ```
 
-## Legendplex LOQ values data, as in: 
-(note: This example does not represetn real data)
+## 2. Legendplex LOQ values data: 
 
 ```
 Plate	Cytokine	LOD
@@ -82,7 +59,7 @@ plate1	sCD25	2543.87
 plate1	sCD40L	145.10
 ```
 
-## Clinical metadata as in:
+## 3. Clinical metadata:
 (note: This example does not represetn real data)
 ```
 Patient	Class	Sex	Age	Height	Weight	Hepatomegaly_York	Splenomegaly_York	Auxiliar_Lymphnodes	SittingSystolicBloodPressure	SittingDiastoliccBloodPressure	Temperature	Pulse	Hemoglobin	WBCells	Neutrophil	Lymphocyte	Platelets	ALT_Results	Creatinine	Albumin	Total_Bilirubin	Aspirate_grade	Liver_size	Spleen_size
