@@ -19,39 +19,39 @@ The script depends on the following R packages:
 ---
 ## Used Library versions:
 
-ggplot2(v 3.5.1)
-reshape2(v 1.4.4)
-viridis(v 0.6.5)
-dplyr(v 1.1.4)
-tidyr(v 1.3.1)
-ggpubr(v 0.6.0)
-rstatix(v 0.7.2)
-factoextra(v 1.0.7)
-ggrepel(v 0.9.6)
-plotly(v 4.10.4)
-umap(v 0.2.10.0)
-pheatmap(v 1.0.12)
-Hmisc(v 5.2.2)
-corrplot(v 0.95)
-ggradar(v 0.2)
-fmsb(v 0.7.6)
-scales(v 1.3.0)
-cowplot(v 1.1.3)
-ggiraphExtra(v 0.3.0)
-grid(v 4.4.2)
-gridExtra(v 2.3)
-ggprism(v 1.0.5)
-ggfortify(v 0.4.17)
-cluster(v 2.1.8)
-caret(v 7.0.1)
-mixOmics(v 6.30.0)
-sva(v 3.54.0)
-logistf(v 1.26.1)
-ggpointdensity(v 0.1.0)
-MASS(v 7.3.65)
-ggVennDiagram(v 1.5.2)
-tibble(v 3.2.1)
-ggtext(v 0.1.2)
+`ggplot2(v 3.5.1)`,
+`reshape2(v 1.4.4)`,
+`viridis(v 0.6.5)`,
+`dplyr(v 1.1.4)`,
+`tidyr(v 1.3.1)`,
+`ggpubr(v 0.6.0)`,
+`rstatix(v 0.7.2)`,
+`factoextra(v 1.0.7)`,
+`ggrepel(v 0.9.6)`,
+`plotly(v 4.10.4)`,
+`umap(v 0.2.10.0)`,
+`pheatmap(v 1.0.12)`,
+`Hmisc(v 5.2.2)`,
+`corrplot(v 0.95)`,
+`ggradar(v 0.2)`,
+`fmsb(v 0.7.6)`,
+`scales(v 1.3.0)`,
+`cowplot(v 1.1.3)`,
+`ggiraphExtra(v 0.3.0)`,
+`grid(v 4.4.2)`,
+`gridExtra(v 2.3)`,
+`ggprism(v 1.0.5)`,
+`ggfortify(v 0.4.17)`,
+`cluster(v 2.1.8)`,
+`caret(v 7.0.1)`,
+`mixOmics(v 6.30.0)`,
+`sva(v 3.54.0)`,
+`logistf(v 1.26.1)`,
+`ggpointdensity(v 0.1.0)`,
+`MASS(v 7.3.65)`,
+`ggVennDiagram(v 1.5.2)`,
+`tibble(v 3.2.1)`,
+`ggtext(v 0.1.2)`.
 
 ---
 
