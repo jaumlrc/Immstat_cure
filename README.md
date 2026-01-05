@@ -67,7 +67,7 @@ The script depends on the following R packages:
 ---
 ## Input Files
 
-The script **`Legendplex_clinical_data_analysis.v5.R`** expects **three input files** (one set per country):
+The script **`Legendplex_clinical_data_analysis.v7.R`** expects **three input files** (one set per country):
 
 1. **Patient clinical metadata**  
 2. **Patient Legendplex results**  
